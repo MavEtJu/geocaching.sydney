@@ -1,0 +1,23 @@
+body {
+	    background-image: url('images/geocaching-logo-150x150.png');
+	    background-repeat: no-repeat;
+	    background-attachment: fixed;
+	    background-position: right top;
+
+	    font-family: sans-serif;
+	}
+
+p.header {
+	    background: DarkTurquoise;
+	    text-align: center;
+	}
+
+div.header {
+	    background: DarkTurquoise;
+	}
+div.center {
+	    text-align: center;
+	}
+div.right {
+	    text-align: right;
+	}
