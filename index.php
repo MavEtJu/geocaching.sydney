@@ -40,6 +40,13 @@ function html_communities()
 	showlinks("communities.txt");
 ?>
 	<p>
+	The following Geocaching communities are outside the greater Sydney area:
+	</p>
+<?php
+	showlinks("communities-outside.txt");
+?>
+	<p />
+	<p>
 	The following Geocaching communities are on NSW state level
 	and Australia wide:
 	</p>
