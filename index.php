@@ -77,7 +77,10 @@ function html_header()
 <html><head>
     <title>Geocaching in Sydney</title>
     <link rel="stylesheet" text="text/css" href="site.css">
-    <link rel="icon" type="image/png"href="images/geocaching-logo-32x32.png">
+    <link rel="icon" type="image/png" href="images/geocaching-logo-32x32.png">
+    <meta name="description" content="Geocaching in Sydney">
+    <meta name="keywords" content="geocaching,sydney,nsw">
+    <meta name="author" content="Edwin Groothuis">
 <?php
     html_google_head();
 ?>
@@ -94,6 +97,12 @@ function html_footer()
 
 function html_google_head()
 {
+    html_google_head_ad();
+    html_google_head_analytics();
+}
+
+function html_google_head_ad()
+{
 ?>
     <script type="text/javascript">
     var _gaq = _gaq || [];
@@ -105,6 +114,22 @@ function html_google_head()
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
     </script>
+<?php
+}
+
+function html_google_head_analytics()
+{
+?>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-71758515-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 <?php
 }
 
