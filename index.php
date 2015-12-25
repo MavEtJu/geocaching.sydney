@@ -33,14 +33,15 @@ function html_communities()
 ?>
 	<div class="center header">Communities</div>
 	<p>
-	The following Geocaching communities have formed in the
+	The following Geocaching local communities have formed in the
 	greater Sydney area:
 	</p>
 <?php
 	showlinks("communities.txt");
 ?>
 	<p>
-	The following Geocaching communities are outside the greater Sydney area:
+	The following Geocaching local communities are outside the
+	greater Sydney area:
 	</p>
 <?php
 	showlinks("communities-outside.txt");
