@@ -77,6 +77,7 @@ function html_header()
 <html><head>
     <title>Geocaching in Sydney</title>
     <link rel="stylesheet" text="text/css" href="site.css">
+    <link rel="icon" type="image/png"href="images/geocaching-logo-32x32.png">
 <?php
     html_google_head();
 ?>
