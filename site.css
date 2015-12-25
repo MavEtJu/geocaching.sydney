@@ -1,8 +1,9 @@
 body {
-	    background-image: url('images/geocaching-logo-150x150.png');
+	    background-image: url('images/geocaching-logo-750x750.png');
 	    background-repeat: no-repeat;
 	    background-attachment: fixed;
-	    background-position: right top;
+	    background-position: center;
+	    background-size: contain;
 
 	    font-family: sans-serif;
 	}
@@ -20,4 +21,10 @@ div.center {
 	}
 div.right {
 	    text-align: right;
+	}
+
+div.google {
+	    position: fixed;
+	    bottom: 1em;
+	    right: 1em;
 	}

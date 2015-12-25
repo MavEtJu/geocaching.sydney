@@ -1,6 +1,7 @@
 <?php
 
 html_header();
+html_google_content();
 html_intro();
 html_communities();
 html_maps();
@@ -76,6 +77,9 @@ function html_header()
 <html><head>
     <title>Geocaching in Sydney</title>
     <link rel="stylesheet" text="text/css" href="site.css">
+<?php
+    html_google_head();
+?>
 </head><body>
 <?php
 }
@@ -84,6 +88,41 @@ function html_footer()
 {
 ?>
 </body></html>
+<?php
+}
+
+function html_google_head()
+{
+?>
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33184807-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+<?php
+}
+
+function html_google_content()
+{
+?>
+    <div class="google">
+<script type="text/javascript"><!--
+google_ad_client = "pub-0772703927761169";
+/* 120x240, created 3/26/08 */
+google_ad_slot = "3899828405";
+google_ad_width = 120;
+google_ad_height = 240;
+//-->
+</script>
+<script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+    </div>
 <?php
 }
 
