@@ -5,13 +5,15 @@ html_google_content();
 html_intro();
 html_communities();
 html_maps();
+html_acknowledgements();
 html_footer();
 
 
 function html_intro()
 {
 ?>
-	<div class="center header">Geocaching in Sydney</div>
+    <div class="intro">
+	<div class="header center">Geocaching in Sydney</div>
 	<p>
 	Welcome to Sydney! Are you looking for the right place to
 	search for a geocache or do you want to get in contact with
@@ -25,56 +27,82 @@ function html_intro()
 	second one is the Geocaching Australia site. Both sides
 	support web-based interaction and GPX based downloads.
 	</p>
+    </div>
 <?php
 }
 
 function html_communities()
 {
 ?>
-	<div class="center header">Communities</div>
-	<p>
-	The following Geocaching local communities have formed in the
-	greater Sydney area:
-	</p>
+    <div class="header center">Communities</div>
+    <div class="row communities">
+	<div class="col communities_overview">
+	    <p>
+	    The following Geocaching local communities have formed in the greater Sydney area:
+	    </p>
 <?php
-	showlinks("communities.txt");
+	    showcommunity("communities.txt");
 ?>
-	<p>
-	The following Geocaching local communities are outside the
-	greater Sydney area:
-	</p>
+	    <p>
+	    The following Geocaching local communities are outside the greater Sydney area:
+	    </p>
 <?php
-	showlinks("communities-outside.txt");
+	    showcommunity("communities-outside.txt");
 ?>
-	<p />
-	<p>
-	The following Geocaching communities are on NSW state level
-	and Australia wide:
-	</p>
+	    <p>
+	    The following Geocaching communities are on NSW state level
+	    and Australia wide:
+	    </p>
 <?php
-	showlinks("associations.txt");
+	    showlinks("associations.txt");
 ?>
-	<p />
+	</div>
+	<div class="col communities_map">
+	    <img class="map" id="map" src="images/map-sydneycbd.png" width="460" />
+	</div>
+    </div>
 <?php
 }
 
 function html_events()
 {
 ?>
-	<div class="center header">Events</div>
+    <div class="events">
+	<div class="header center">Events</div>
+    </div>
 <?php
 }
 
 function html_maps()
 {
 ?>
-	<div class="center header">Maps</div>
+    <div class="maps">
+	<div class="header center">Maps</div>
 	<p>
 	Foo
 	</p>
 <?php
 	showlinks("maps.txt");
 ?>
+    </div>
+<?php
+}
+
+function html_acknowledgements()
+{
+?>
+   <div class="acknowledgements">
+   	<div class="header center">Acknowledgements and contact</div>
+	<p>
+	Background image obtained from Wikipedia: https://en.wikipedia.org/wiki/Geocaching#/media/File:Geocaching.svg 
+	</p>
+	<p>
+	Maps obtained from Google Search: https://www.google.com/
+	</p>
+	<p>
+	Contact: <a href="mailto:geocaching at mavetju dot org">geocaching at mavetju dot org</a>
+	</p>
+   </div>
 <?php
 }
 
@@ -89,9 +117,16 @@ function html_header()
     <meta name="description" content="Geocaching in Sydney">
     <meta name="keywords" content="geocaching,sydney,nsw">
     <meta name="author" content="Edwin Groothuis">
+    <meta charset="utf-8">
 <?php
     html_google_head();
 ?>
+
+    <script type="text/javascript">
+    function showmap($s) {
+	document.getElementById("map").src = $s;
+    }
+    </script>
 </head><body>
 <?php
 }
@@ -174,6 +209,60 @@ function showlinks($filename)
 ?>
 	<div><?= $key ?> [ <a href="<?= $ref ?>">link</a> ]</div>
 <?php
+    }
+}
+
+function showcommunity($filename)
+{
+    $a = file_get_contents($filename);
+    $as = explode("\n", $a);
+
+    $name = "";
+    $map = "";
+    $facebook = "";
+
+    foreach ($as as $a) {
+    	if ($a == "") {
+	    echo "<div>$name";
+	    $first = 0;
+	    if ($facebook != "") {
+	    	if ($first++ == 0)
+		    echo " [ ";
+		else
+		    echo " | ";
+	    	echo "<a href=\"$facebook\">Facebook</a>";
+	    }
+	    if ($map != "") {
+	    	if ($first++ == 0)
+		    echo " [ ";
+		else
+		    echo " | ";
+	    	echo "<a href=\"#\" onClick=\"showmap('images/$map');\">Map</a>";
+	    }
+	    if ($first != 0)
+	    	echo " ] ";
+	    echo "</div>\n";
+
+	    $name = "";
+	    $map = "";
+	    $facebook = "";
+	    continue;
+	}
+
+	if (substr($a, 0, 6) == "Name: ") {
+	    $name = substr($a, 6);
+	    continue;;
+	}
+
+	if (substr($a, 0, 10) == "Facebook: ") {
+	    $facebook = substr($a, 10);
+	    continue;;
+	}
+
+	if (substr($a, 0, 5) == "Map: ") {
+	    $map = substr($a, 5);
+	    continue;;
+	}
     }
 }
 

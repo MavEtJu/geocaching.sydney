@@ -1,7 +1,15 @@
-HAVOC - Hunter Area Victims of Caching
-https://www.facebook.com/groups/200574939438/
-C4 - Central Coast Caching Community
-https://www.facebook.com/groups/ccgeo/
-Mid North Coast NSW Geocaching
-https://www.facebook.com/groups/1598095693792266/
+Name: HAVOC - Hunter Area Victims of Caching
+Facebook: https://www.facebook.com/groups/200574939438/
+Map: map-havoc.png
 
+Name: C4 - Central Coast Caching Community
+Facebook: https://www.facebook.com/groups/ccgeo/
+Map: map-c4.png
+
+Name: Mid North Coast NSW Geocaching
+Facebook: https://www.facebook.com/groups/1598095693792266/
+Map: map-midnorthcoast.png
+
+Name: ICC - Illawarra Caching Community
+Facebook: https://www.facebook.com/groups/349054011816817/
+Map: map-illawara.png

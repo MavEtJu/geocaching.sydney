@@ -1,10 +1,15 @@
-Geocaching Sydney CBD
-https://www.facebook.com/groups/429404553895543/
-Sutherland Shire Geocaching
-https://www.facebook.com/groups/303683776463091/
-ICC - Illawarra Caching Community
-https://www.facebook.com/groups/349054011816817/
-Greater Western Sydney Geocachers
-https://www.facebook.com/groups/475285362541215/
-St George and Surrounds Geocaching
-https://www.facebook.com/groups/stgeorgegeocaching/
+Name: Geocaching Sydney CBD
+Facebook: https://www.facebook.com/groups/429404553895543/
+Map: map-sydneycbd.png
+
+Name: Sutherland Shire Geocaching
+Facebook: https://www.facebook.com/groups/303683776463091/
+Map: map-sutherlandshire.png
+
+Name: Greater Western Sydney Geocachers
+Facebook: https://www.facebook.com/groups/475285362541215/
+Map: map-westernsydney.png
+
+Name: St George and Surrounds Geocaching
+Facebook: https://www.facebook.com/groups/stgeorgegeocaching/
+Map: map-stgeorge.png

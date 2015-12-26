@@ -8,11 +8,6 @@ body {
 	    font-family: sans-serif;
 	}
 
-p.header {
-	    background: DarkTurquoise;
-	    text-align: center;
-	}
-
 div.header {
 	    background: DarkTurquoise;
 	}
@@ -28,3 +23,14 @@ div.google {
 	    bottom: 1em;
 	    right: 1em;
 	}
+
+div.communities_overview {
+	}
+
+.row {
+	    display: flex; /* equal height of the children */
+}
+
+.col {
+	    flex: 2; /* additionally, equal width */
+}
