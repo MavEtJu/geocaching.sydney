@@ -234,7 +234,7 @@ function showcommunity($filename)
 		    echo " [ ";
 		else
 		    echo " | ";
-	    	echo "<a href=\"$facebook\">Facebook&nbsp;group</a>";
+	    	echo "<a href=\"$facebook\">Facebook</a>";
 	    }
 	    if ($map != "") {
 	    	if ($first++ == 0)
@@ -248,7 +248,7 @@ function showcommunity($filename)
 		    echo " [ ";
 		else
 		    echo " | ";
-	    	echo "<a href=\"$groundspeak\">Groundspeak&nbsp;Geocaching.com</a>";
+	    	echo "<a href=\"$groundspeak\">geocaching.com</a>";
 	    }
 	    if ($gca != "") {
 	    	if ($first++ == 0)
