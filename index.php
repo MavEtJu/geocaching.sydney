@@ -234,7 +234,7 @@ function showcommunity($filename)
 		    echo " [ ";
 		else
 		    echo " | ";
-	    	echo "<a href=\"$facebook\">Facebook</a>";
+	    	echo "<a href=\"$facebook\">Facebook&nbsp;group</a>";
 	    }
 	    if ($map != "") {
 	    	if ($first++ == 0)
