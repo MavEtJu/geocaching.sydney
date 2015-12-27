@@ -58,7 +58,7 @@ function html_communities()
 ?>
 	</div>
 	<div class="col communities_map">
-	    <img class="map" id="map" src="images/map-sydneycbd.png" width="460" />
+	    <img class="map" id="map" src="images/map-nsw.png" width="460" />
 	</div>
     </div>
 <?php
