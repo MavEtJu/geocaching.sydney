@@ -1,15 +1,23 @@
 Name: Geocaching Sydney CBD
 Facebook: https://www.facebook.com/groups/429404553895543/
 Map: map-sydneycbd.png
+Groundspeak: https://www.geocaching.com/map/#?ll=-33.86215,151.18217&z=12
+GCA: http://geocaching.com.au/cache/latlon.gmapll?lat=-33.85388&lon=151.24535&zoom=12
 
 Name: Sutherland Shire Geocaching
 Facebook: https://www.facebook.com/groups/303683776463091/
 Map: map-sutherlandshire.png
+Groundspeak: https://www.geocaching.com/map/#?ll=-34.03161,151.09257&z=12
+GCA: http://geocaching.com.au/cache/latlon.gmapll?lat=-34.03161&lon=151.09257&zoom=12
 
 Name: Greater Western Sydney Geocachers
 Facebook: https://www.facebook.com/groups/475285362541215/
 Map: map-westernsydney.png
+Groundspeak: https://www.geocaching.com/map/#?ll=-33.80197,150.85052&z=11
+GCA: http://geocaching.com.au/cache/latlon.gmapll?lat=-33.80197&lon=150.85052&zoom=11
 
 Name: St George and Surrounds Geocaching
 Facebook: https://www.facebook.com/groups/stgeorgegeocaching/
 Map: map-stgeorge.png
+Groundspeak: https://www.geocaching.com/map/#?ll=-33.9539,151.15505&z=12
+GCA: http://geocaching.com.au/cache/latlon.gmapll?lat=-33.9539&lon=151.15505&zoom=12

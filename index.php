@@ -79,7 +79,8 @@ function html_maps()
     <div class="maps">
 	<div class="header center">Maps</div>
 	<p>
-	Foo
+	Do you want to find geocaches in the greater Sydney area?
+	Have a look at these two sources:
 	</p>
 <?php
 	showlinks("maps.txt");
@@ -220,10 +221,13 @@ function showcommunity($filename)
     $name = "";
     $map = "";
     $facebook = "";
+    $groundspeak = "";
+    $gca = "";
 
+    echo "<ul>\n";
     foreach ($as as $a) {
     	if ($a == "") {
-	    echo "<div>$name";
+	    echo "<li>$name<br>";
 	    $first = 0;
 	    if ($facebook != "") {
 	    	if ($first++ == 0)
@@ -239,31 +243,54 @@ function showcommunity($filename)
 		    echo " | ";
 	    	echo "<a href=\"#\" onClick=\"showmap('images/$map');\">Map</a>";
 	    }
+	    if ($groundspeak != "") {
+	    	if ($first++ == 0)
+		    echo " [ ";
+		else
+		    echo " | ";
+	    	echo "<a href=\"$groundspeak\">Groundspeak&nbsp;Geocaching.com</a>";
+	    }
+	    if ($gca != "") {
+	    	if ($first++ == 0)
+		    echo " [ ";
+		else
+		    echo " | ";
+	    	echo "<a href=\"$gca\">Geocaching Australia</a>";
+	    }
 	    if ($first != 0)
 	    	echo " ] ";
-	    echo "</div>\n";
+	    echo "</li>\n";
 
 	    $name = "";
 	    $map = "";
 	    $facebook = "";
+	    $groundspeak = "";
+	    $gca = "";
 	    continue;
 	}
 
 	if (substr($a, 0, 6) == "Name: ") {
 	    $name = substr($a, 6);
-	    continue;;
+	    continue;
 	}
-
 	if (substr($a, 0, 10) == "Facebook: ") {
 	    $facebook = substr($a, 10);
-	    continue;;
+	    continue;
 	}
-
 	if (substr($a, 0, 5) == "Map: ") {
 	    $map = substr($a, 5);
-	    continue;;
+	    continue;
+	}
+	if (substr($a, 0, 13) == "Groundspeak: ") {
+	    $groundspeak = substr($a, 13);
+	    continue;
+	}
+	if (substr($a, 0, 5) == "GCA: ") {
+	    $gca = substr($a, 5);
+	    continue;
 	}
     }
+    echo "</ul>\n";
 }
 
 ?>
