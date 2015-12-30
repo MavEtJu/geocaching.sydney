@@ -15,10 +15,9 @@ function html_intro()
     <div class="intro">
 	<div class="header center">Geocaching in Sydney</div>
 	<p>
-	Welcome to Sydney! Are you looking for the right place to
-	search for a geocache or do you want to get in contact with
-	the local Geocaching communities? This is the right place
-	to be!
+	Welcome to Sydney! Are you looking on where to find a
+	geocache or do you want to get in contact with the local
+	Geocaching communities? This is the right place to be!
 	</p>
 
 	<p>
@@ -200,6 +199,7 @@ function showlinks($filename)
 {
     $a = file_get_contents($filename);
     $as = explode("\n", $a);
+    echo "<ul>\n";
     for ($i = 0; $i < count($as); $i += 2) {
     	if ($as[$i] == "")
 	    continue;
@@ -208,9 +208,10 @@ function showlinks($filename)
 	$ref = $as[$i + 1];
 	$ref = str_replace("&", "&amp;", $ref);
 ?>
-	<div><?= $key ?> [ <a href="<?= $ref ?>">link</a> ]</div>
+	<li><?= $key ?> [ <a href="<?= $ref ?>">link</a> ]</li>
 <?php
     }
+    echo "</ul>\n";
 }
 
 function showcommunity($filename)
@@ -218,75 +219,72 @@ function showcommunity($filename)
     $a = file_get_contents($filename);
     $as = explode("\n", $a);
 
-    $name = "";
-    $map = "";
-    $facebook = "";
-    $groundspeak = "";
-    $gca = "";
+    $first = 0;
+    $data = array();
 
     echo "<ul>\n";
     foreach ($as as $a) {
     	if ($a == "") {
-	    echo "<li>$name<br>";
+	    echo "<li>$data[name]<br>";
 	    $first = 0;
-	    if ($facebook != "") {
+	    if (isset($data["facebook"])) {
 	    	if ($first++ == 0)
 		    echo " [ ";
 		else
 		    echo " | ";
-	    	echo "<a href=\"$facebook\">Facebook</a>";
+	    	echo "<a href=\"$data[facebook]\">Facebook</a>";
 	    }
-	    if ($map != "") {
+	    if (isset($data["map"])) {
 	    	if ($first++ == 0)
 		    echo " [ ";
 		else
 		    echo " | ";
-	    	echo "<a href=\"#\" onClick=\"showmap('images/$map');\">Map</a>";
+	    	echo "<a href=\"#\" onClick=\"showmap('images/$data[map]');\">Map</a>";
 	    }
-	    if ($groundspeak != "") {
+	    if (isset($data["groundspeak"])) {
 	    	if ($first++ == 0)
 		    echo " [ ";
 		else
 		    echo " | ";
-	    	echo "<a href=\"$groundspeak\">geocaching.com</a>";
+	    	echo "<a href=\"$data[groundspeak]\">geocaching.com</a>";
 	    }
-	    if ($gca != "") {
+	    if (isset($data["gca"])) {
 	    	if ($first++ == 0)
 		    echo " [ ";
 		else
 		    echo " | ";
-	    	echo "<a href=\"$gca\">Geocaching Australia</a>";
+	    	echo "<a href=\"$data[gca]\">Geocaching Australia</a>";
 	    }
 	    if ($first != 0)
 	    	echo " ] ";
 	    echo "</li>\n";
 
-	    $name = "";
-	    $map = "";
-	    $facebook = "";
-	    $groundspeak = "";
-	    $gca = "";
+	    $data = array();
 	    continue;
 	}
 
 	if (substr($a, 0, 6) == "Name: ") {
-	    $name = substr($a, 6);
+	    $data["name"] = substr($a, 6);
 	    continue;
 	}
 	if (substr($a, 0, 10) == "Facebook: ") {
-	    $facebook = substr($a, 10);
+	    $data["facebook"] = substr($a, 10);
 	    continue;
 	}
 	if (substr($a, 0, 5) == "Map: ") {
-	    $map = substr($a, 5);
+	    $data["map"] = substr($a, 5);
 	    continue;
 	}
 	if (substr($a, 0, 13) == "Groundspeak: ") {
-	    $groundspeak = substr($a, 13);
+	    $data["groundspeak"] = substr($a, 13);
 	    continue;
 	}
 	if (substr($a, 0, 5) == "GCA: ") {
-	    $gca = substr($a, 5);
+	    $data["gca"] = substr($a, 5);
+	    continue;
+	}
+	if (substr($a, 0, 7) == "Top10: ") {
+	    $data["top10"] = substr($a, 7);
 	    continue;
 	}
     }
