@@ -37,7 +37,8 @@ function html_communities()
     <div class="row communities">
 	<div class="col communities_overview">
 	    <p>
-	    The following Geocaching local communities have formed in the greater Sydney area:
+	    The following Geocaching local communities have formed in <a href="#" onClick="showmap('images/map-nsw.png');">the greater Sydney area</a>:
+	    	
 	    </p>
 <?php
 	    showcommunity("communities.txt");
@@ -211,7 +212,7 @@ function showlinks($filename)
 	$ref = $as[$i + 1];
 	$ref = str_replace("&", "&amp;", $ref);
 ?>
-	<li><?= $key ?> [ <a href="<?= $ref ?>">link</a> ]</li>
+	<li><?= $key ?> [ <a href="<?= $ref ?>">link</a>&nbsp;<img src="images/link-external.png"> ]</li>
 <?php
     }
     echo "</ul>\n";
@@ -228,7 +229,12 @@ function showcommunity($filename)
     echo "<ul>\n";
     foreach ($as as $a) {
     	if ($a == "") {
-	    echo "<li>$data[name]<br>";
+	    echo "<li>$data[name]";
+	    if (isset($data["map"])) {
+	    	echo " [ <a href=\"#\" onClick=\"showmap('images/$data[map]');\">Map</a> ]";
+	    }
+	    echo "<br>\n";
+
 	    $first = 0;
 	    if (isset($data["facebook"])) {
 	    	if ($first++ == 0)
@@ -237,19 +243,12 @@ function showcommunity($filename)
 		    echo " | ";
 	    	echo "<a href=\"$data[facebook]\">Facebook</a>";
 	    }
-	    if (isset($data["map"])) {
-	    	if ($first++ == 0)
-		    echo " [ ";
-		else
-		    echo " | ";
-	    	echo "<a href=\"#\" onClick=\"showmap('images/$data[map]');\">Map</a>";
-	    }
 	    if (isset($data["top10"])) {
 	    	if ($first++ == 0)
 		    echo " [ ";
 		else
 		    echo " | ";
-	    	echo "<a href=\"$data[top10]\">Top 10</a>";
+	    	echo "<a href=\"$data[top10]\">Top&nbsp;10</a>";
 	    }
 	    if (isset($data["groundspeak"])) {
 	    	if ($first++ == 0)
@@ -263,7 +262,7 @@ function showcommunity($filename)
 		    echo " [ ";
 		else
 		    echo " | ";
-	    	echo "<a href=\"$data[gca]\">Geocaching Australia</a>";
+	    	echo "<a href=\"$data[gca]\">Geocaching&nbsp;Australia</a>";
 	    }
 	    if ($first != 0)
 	    	echo " ] ";
