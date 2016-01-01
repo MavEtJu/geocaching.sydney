@@ -231,7 +231,7 @@ function showcommunity($filename)
     	if ($a == "") {
 	    echo "<li>$data[name]";
 	    if (isset($data["map"])) {
-	    	echo " [ <a href=\"#\" onClick=\"showmap('images/$data[map]');\">Map</a> ]";
+	    	echo " - <a href=\"#\" onClick=\"showmap('images/$data[map]');\">map</a>";
 	    }
 	    echo "<br>\n";
 
