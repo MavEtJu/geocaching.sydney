@@ -1,23 +1,30 @@
 Name: HAVOC - Hunter Area Victims of Caching
 Facebook: https://www.facebook.com/groups/200574939438/
 Map: map-havoc.png
-Groundspeak: https://www.geocaching.com/map/#?ll=-32.83979,151.60721&z=11
-GCA: http://geocaching.com.au/cache/latlon.gmapll?lat=-32.83979&lon=151.60721&zoom=11
+Groundspeak: https://www.geocaching.com/map/#?ll=-32.78958,151.5612&z=10
+GCA: http://geocaching.com.au/cache/latlon.gmapll?lat=-32.78958&lon=151.5612&zoom=10
+Top10: https://www.geocaching.com/bookmarks/view.aspx?guid=da2b4d21-ca9d-4dc4-9dbf-843137fda172
 
 Name: C4 - Central Coast Caching Community
 Facebook: https://www.facebook.com/groups/ccgeo/
 Map: map-c4.png
 Groundspeak: https://www.geocaching.com/map/#?ll=-33.42399,151.41151&z=11
 GCA: http://geocaching.com.au/cache/latlon.gmapll?lat=-33.42399&lon=151.41151&zoom=11
+Top10: https://www.geocaching.com/bookmarks/view.aspx?guid=a7bfa839-8612-4268-8741-60fad8fca3be
 
 Name: Mid North Coast NSW Geocaching
 Facebook: https://www.facebook.com/groups/1598095693792266/
 Map: map-midnorthcoast.png
 Groundspeak: https://www.geocaching.com/map/#?ll=-29.4671,153.25516&z=10
 GCA: http://geocaching.com.au/cache/latlon.gmapll?lat=-29.4671&lon=153.25516&zoom=10
+Top10: https://www.geocaching.com/bookmarks/view.aspx?guid=bdf4a797-c34c-4b13-9fd2-3906aaa06e62
 
 Name: ICC - Illawarra Caching Community
 Facebook: https://www.facebook.com/groups/349054011816817/
 Map: map-illawara.png
 Groundspeak: https://www.geocaching.com/map/#?ll=-34.45109,150.87318&z=11
 GCA: http://geocaching.com.au/cache/latlon.gmapll?lat=-34.45109&lon=150.87318&zoom=11
+Top10: https://www.geocaching.com/bookmarks/view.aspx?guid=e75d8d09-5213-4358-b310-563f67d567c0
+
+Name: Geocaching Southern Highlands NSW
+Facebook: https://www.facebook.com/Geocachingsouthernhighlands/?fref=photo

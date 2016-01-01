@@ -92,7 +92,7 @@ function html_acknowledgements()
 {
 ?>
    <div class="acknowledgements">
-   	<div class="header center">Acknowledgements and contact</div>
+   	<div class="header center">Acknowledgements and contact details</div>
 	<p>
 	Background image obtained from Wikipedia: https://en.wikipedia.org/wiki/Geocaching#/media/File:Geocaching.svg 
 	</p>
@@ -100,7 +100,10 @@ function html_acknowledgements()
 	Maps obtained from Google Search: https://www.google.com/
 	</p>
 	<p>
-	Contact: <a href="mailto:geocaching at mavetju dot org">geocaching at mavetju dot org</a>
+	Top 10 lists obtained via the Groundspeak geocaching.com website.
+	</p>
+	<p>
+	For questions, suggestions or feedback, you can contact me at: <a href="mailto:geocaching at mavetju dot org">geocaching at mavetju dot org</a>
 	</p>
    </div>
 <?php
@@ -240,6 +243,13 @@ function showcommunity($filename)
 		else
 		    echo " | ";
 	    	echo "<a href=\"#\" onClick=\"showmap('images/$data[map]');\">Map</a>";
+	    }
+	    if (isset($data["top10"])) {
+	    	if ($first++ == 0)
+		    echo " [ ";
+		else
+		    echo " | ";
+	    	echo "<a href=\"$data[top10]\">Top 10</a>";
 	    }
 	    if (isset($data["groundspeak"])) {
 	    	if ($first++ == 0)
