@@ -54,7 +54,7 @@ function html_communities()
 	    and Australia wide:
 	    </p>
 <?php
-	    showlinks("associations.txt");
+	    showassociations("associations.txt");
 ?>
 	</div>
 	<div class="col communities_map">
@@ -214,6 +214,70 @@ function showlinks($filename)
 ?>
 	<li><?= $key ?> [ <a href="<?= $ref ?>">link</a>&nbsp;<img src="images/link-external.png"> ]</li>
 <?php
+    }
+    echo "</ul>\n";
+}
+
+function showassociations($filename)
+{
+    $a = file_get_contents($filename);
+    $as = explode("\n", $a);
+
+    $first = 0;
+    $data = array();
+
+    echo "<ul>\n";
+    foreach ($as as $a) {
+    	if ($a == "") {
+	    echo "<li>$data[name]";
+	    $first = 0;
+
+	    if (isset($data["website"])) {
+	    	if ($first++ == 0)
+		    echo " [ ";
+		echo "<a href=\"$data[website]\">website</a>&nbsp;<img src=\"images/link-external.png\">";
+	    }
+
+	    if (isset($data["googleplus"])) {
+	    	if ($first++ == 0)
+		    echo " [ ";
+		else
+		    echo " | ";
+		echo "<a href=\"$data[googleplus]\">Google+</a>";
+	    }
+
+	    if (isset($data["facebook"])) {
+	    	if ($first++ == 0)
+		    echo " [ ";
+		else
+		    echo " | ";
+		echo "<a href=\"$data[facebook]\">Facebook</a>";
+	    }
+
+	    if ($first != 0)
+		echo " ] ";
+	    echo "</li>\n";
+
+	    $data = array();
+	    continue;
+	}
+
+	if (substr($a, 0, 6) == "Name: ") {
+	    $data["name"] = substr($a, 6);
+	    continue;
+	}
+	if (substr($a, 0, 9) == "Website: ") {
+	    $data["website"] = substr($a, 9);
+	    continue;
+	}
+	if (substr($a, 0, 10) == "Facebook: ") {
+	    $data["facebook"] = substr($a, 10);
+	    continue;
+	}
+	if (substr($a, 0, 12) == "GooglePlus: ") {
+	    $data["googleplus"] = substr($a, 12);
+	    continue;
+	}
     }
     echo "</ul>\n";
 }

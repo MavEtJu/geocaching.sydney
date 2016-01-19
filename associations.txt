@@ -1,4 +1,9 @@
-Geocaching Australia
-http://geocaching.com.au/
-Geocaching NSW
-http://geocaching.com.au/
+Name: Geocaching Australia
+Website: http://geocaching.com.au/
+GooglePlus: https://plus.google.com/+geocachingaustralia
+Facebook: https://www.facebook.com/Geocaching-Australia-117269041697791/
+
+Name: Geocaching NSW
+Website: http://geocachingnsw.asn.au/
+GooglePlus: https://plus.google.com/115622323296013038597
+Facebook: https://www.facebook.com/geocachingnsw/
