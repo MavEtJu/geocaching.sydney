@@ -32,3 +32,4 @@ Map: map-southernhighlands.png
 
 Name: Wingecarribee Shire Geocaching
 Facebook: https://www.facebook.com/groups/452710821587581/
+Map: map-wingecarribee.png
