@@ -28,6 +28,7 @@ Top10: https://www.geocaching.com/bookmarks/view.aspx?guid=e75d8d09-5213-4358-b3
 
 Name: Geocaching Southern Highlands NSW
 Facebook: https://www.facebook.com/Geocachingsouthernhighlands/?fref=photo
+Map: map-southernhighlands.png
 
 Name: Wingecarribee Shire Geocaching
 Facebook: https://www.facebook.com/groups/452710821587581/
