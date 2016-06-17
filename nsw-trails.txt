@@ -1,0 +1,132 @@
+code: hpmpt
+coordinates: 695,619
+size: 45x45
+name: Harry Potter MPT 
+location: South of Bumbaldry
+url: https://www.geocaching.com/map/default.aspx#?ll=-34.016064,148.434376&z=11
+
+code: at
+coordinates: 450,333
+size: 50x50
+name: Aussie Towns
+location: North of Cobar
+url: https://www.geocaching.com/map/default.aspx#?ll=-31.436682,145.787358&z=11
+
+code: trlt
+coordinates: 800,450
+size: 60x130
+name: The Road Less Travelled
+location: Meadow Flat to Gulgong
+url: https://www.geocaching.com/map/default.aspx#?ll=-32.867296,149.265904&z=9
+
+code: rggt
+coordinates: 570,750
+size: 40x25
+name: Riverina Geocaching's Geotriad Tribute
+location: North west of Wagga Wagga
+url: https://www.geocaching.com/map/default.aspx#?ll=-35.020543,147.085804&z=11
+
+code: bmg
+coordinates: 575,780
+size: 20x30
+name: baby &amp; Mrs Gopher
+location: South of The Rock
+url: https://www.geocaching.com/map/default.aspx#?ll=-35.292745,147.069668&z=13
+
+code: es
+coordinates: 710,730
+size: 25x35
+name: Endangered Species
+location: South of Brookham
+url: https://www.geocaching.com/map/default.aspx#?ll=-34.885614,148.5257&z=12
+
+code: li
+coordinates: 930,695
+size: 20x20
+name: SES and Lake Illawara Power Trail
+location: Lake Illawara
+url: https://www.geocaching.com/map/default.aspx#?ll=-34.52307,150.768971&z=12
+
+code: iuet
+coordinates: 941,681
+size: 10x10
+name: Illawara Upper Escarpment Trail
+location:  North of Wollongong
+url: https://www.geocaching.com/map/default.aspx#?ll=-34.372982,150.846905&z=14
+
+code: asj
+coordinates: 930,670
+size: 15x10
+name: Australian Scout Jamboree 2016
+location: West of Appin / Cataract Dam
+url: https://www.geocaching.com/map/default.aspx#?ll=-34.252605,150.806994&z=13
+
+code: ssc
+coordinates: 965,640
+size: 15x12
+name: Sutherland Shire Cycleways
+location: Eastern Sutherland Shire
+url: https://www.geocaching.com/map/default.aspx#?ll=-34.036088,151.134696&z=13
+
+code: cckr
+coordinates: 790,790
+size: 10x10
+name: Cache Constalation and Kowen Roo
+location: North east of Quenbeyan
+url: https://www.geocaching.com/map/default.aspx#?ll=-35.304128,149.261441&z=13
+
+code: cft
+coordinates: 795,800
+size: 20x30
+name: Captain's Flat Trail
+location: North of Captain's Flat
+url: https://www.geocaching.com/map/default.aspx#?ll=-35.486881,149.253029&z=11
+
+code: sst
+coordinates: 840,910
+size: 30x60
+name: Sapphire Surprise Tour
+location: Tilba Tilba to Bega looped
+url: https://www.geocaching.com/map/default.aspx#?ll=-36.535501,149.818825&z=10
+
+code: wrh
+coordinates: 933,596
+size: 20x20
+name: Windsor to Rouse Hill series
+location: Windor to Rouse Hill
+url: https://www.geocaching.com/map/default.aspx#?ll=-33.657852,150.812744&z=12
+
+code: jcmpt
+coordinates: 865,590
+size: 15x20
+name: Jenolan Caves MPT
+location: South of Harthly
+url: https://www.geocaching.com/map/default.aspx#?ll=-33.614475,150.076489&z=12
+
+code: bmpt
+coordinates: 870,580
+size: 55x45
+name: Blue Mountain Power Trail and Blue Mountain Phone Booths
+location: Penrith to Lithgow
+url: http://geocaching.com.au/my/query/gmap/7914
+
+code: dv
+coordinates: 1080,230
+size: 30x15
+name: Deer Vale
+location: East of Deer Vale
+url: https://www.geocaching.com/map/default.aspx#?ll=-30.349175,152.539486&z=12
+
+code: mncw
+coordinates: 1090,380
+size: 35x28
+name: Mid North Coast Wander
+location: South west of Port Macquarie
+url: https://www.geocaching.com/map/default.aspx#?ll=-31.756195,152.501721&z=11
+
+code: act
+coordinates: 760,770
+size: 30x45
+name: ACT - One huge cache slugfest
+location: ACT
+url: https://www.geocaching.com/map/default.aspx#?ll=-35.304478,148.961376&z=10

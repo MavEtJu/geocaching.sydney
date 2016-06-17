@@ -2,3 +2,5 @@ Groundspeak Geocaching.com
 https://www.geocaching.com/map/#?ll=-33.86229,151.18217&z=12
 Geocaching Australia
 http://geocaching.com.au/cache/latlon.gmapll?lat=-33.85388&lon=151.24535&zoom=12
+New South Wales Trails
+http://geocaching.sydney/nsw-trails.php
