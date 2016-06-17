@@ -130,3 +130,10 @@ size: 30x45
 name: ACT - One huge cache slugfest
 location: ACT
 url: https://www.geocaching.com/map/default.aspx#?ll=-35.304478,148.961376&z=10
+
+code: coomies
+coordinates: 935,760
+size: 6x5
+name: Coomies Walk
+location: Currarong
+url: https://www.geocaching.com/map/default.aspx?lat=-35.008483&lng=150.83985#?ll=-35.011506,150.826804&z=14
