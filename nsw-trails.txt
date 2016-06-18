@@ -151,3 +151,10 @@ size: 10x8
 name: Hali Pathway series
 location: Budgewoi to San Remo
 url: https://www.geocaching.com/map/default.aspx?ll=-33.22813,151.515595&z=13
+
+code: ntsbpt
+coordinates: 1060,498
+size: 8x8
+name: Nelson to Shoal Bay Power Trail
+location: Melson to Shoal Bay loop
+url: https://www.geocaching.com/map/default.aspx?ll=-32.723786,152.16396&z=14
