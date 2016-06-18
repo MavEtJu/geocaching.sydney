@@ -127,7 +127,7 @@ url: https://www.geocaching.com/map/default.aspx#?ll=-31.756195,152.501721&z=11
 code: act
 coordinates: 760,770
 size: 30x45
-name: ACT - One huge cache slugfest
+name: ACT - One huge cache cachefest - 3000 caches in a 2000 km^2 area.
 location: ACT
 url: https://www.geocaching.com/map/default.aspx#?ll=-35.304478,148.961376&z=10
 
