@@ -156,7 +156,7 @@ code: ntsbpt
 coordinates: 1060,498
 size: 8x8
 name: Nelson to Shoal Bay Power Trail
-location: Melson to Shoal Bay loop
+location: Nelson to Shoal Bay loop
 url: https://www.geocaching.com/map/default.aspx?ll=-32.723786,152.16396&z=14
 
 code: zfpt
