@@ -58,7 +58,7 @@ code: asj
 coordinates: 930,670
 size: 15x10
 name: Australian Scout Jamboree 2016
-location: West of Appin / Cataract Dam
+location: East of Appin / Cataract Dam
 url: https://www.geocaching.com/map/default.aspx#?ll=-34.252605,150.806994&z=13
 
 code: ssc
@@ -127,7 +127,7 @@ url: https://www.geocaching.com/map/default.aspx#?ll=-31.756195,152.501721&z=11
 code: act
 coordinates: 760,770
 size: 30x45
-name: ACT - One huge cachefest - 3000 caches in a 2000 km^2 area.
+name: ACT - One huge cachefest<br>3000 caches in a 2000 km^2 area.
 location: ACT
 url: https://www.geocaching.com/map/default.aspx#?ll=-35.304478,148.961376&z=10
 
