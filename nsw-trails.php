@@ -128,34 +128,38 @@ function readconfig()
 	// url: https://www.geoc
 
 	if ($ws[0] == "coordinates") {
-	     $xy = explode(",", $ws[1]);
-	     $current["x"] = $xy[0];
-	     $current["y"] = $xy[1];
-	     continue;
+	    $xy = explode(",", $ws[1]);
+	    $current["x"] = $xy[0];
+	    $current["y"] = $xy[1];
+	    continue;
 	}
 	if ($ws[0] == "size") {
-	     $dxy = explode("x", $ws[1]);
-	     $current["dx"] = $dxy[0];
-	     $current["dy"] = $dxy[1];
-	     continue;
+	    $dxy = explode("x", $ws[1]);
+	    $current["dx"] = $dxy[0];
+	    $current["dy"] = $dxy[1];
+	    continue;
 	}
 	if ($ws[0] == "code") {
-	     $current["code"] = $ws[1];
-	     continue;
+	    $current["code"] = $ws[1];
+	    continue;
 	}
 	if ($ws[0] == "name") {
-	     $current["name"] = $ws[1];
-	     continue;
+	    $current["name"] = $ws[1];
+	    continue;
 	}
 	if ($ws[0] == "location") {
-	     $current["location"] = $ws[1];
-	     continue;
+	    $current["location"] = $ws[1];
+	    continue;
 	}
 	if ($ws[0] == "url") {
-	     $current["url"] = $ws[1];
-	     $config[$current["code"]] = $current;
-	     $current = array();
-	     continue;
+	    $current["url"] = $ws[1];
+	    if (isset($config[$current["code"]])) {
+		echo "$current[code] already exist!<br>";
+		exit(0);
+	    }
+	    $config[$current["code"]] = $current;
+	    $current = array();
+	    continue;
 	}
     }
 
