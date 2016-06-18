@@ -165,3 +165,17 @@ size: 7x6
 name: Zargfinders Power Trail
 location: Circuit Walk around Manly Dam
 url: https://www.geocaching.com/map/#?ll=-33.773226,151.241683&z=14
+
+code: fttb
+coordinates: 1016,529
+size: 7x8
+name: Fernleigh Track and Toolbox Series
+location: South of Adamstown
+url: https://www.geocaching.com/map/#?ll=-32.991945,151.701864&z=12
+
+code: fttb
+coordinates: 1012,536
+size: 7x9
+name: Bison Trail and Sand Island PT
+location: Blacksmiths
+url: https://www.geocaching.com/map/#?ll=-33.071854,151.642126&z=14
