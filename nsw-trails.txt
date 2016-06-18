@@ -144,3 +144,10 @@ size: 7x6
 name: Hidden Pathways
 location: Bundeena
 url: https://www.geocaching.com/map/#?ll=-34.084583,151.1277&z=14
+
+code: hps
+coordinates: 1000,553
+size: 10x8
+name: Hali Pathway series
+location: Budgewoi to San Remo
+url: https://www.geocaching.com/map/default.aspx?ll=-33.22813,151.515595&z=13
