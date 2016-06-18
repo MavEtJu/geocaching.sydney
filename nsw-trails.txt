@@ -158,3 +158,10 @@ size: 8x8
 name: Nelson to Shoal Bay Power Trail
 location: Melson to Shoal Bay loop
 url: https://www.geocaching.com/map/default.aspx?ll=-32.723786,152.16396&z=14
+
+code: zfpt
+coordinates: 976,616
+size: 7x6
+name: Zargfinders Power Trail
+location: Circuit Walk around Manly Dam
+url: https://www.geocaching.com/map/#?ll=-33.773226,151.241683&z=14
