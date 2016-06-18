@@ -173,7 +173,7 @@ name: Fernleigh Track and Toolbox Series
 location: South of Adamstown
 url: https://www.geocaching.com/map/#?ll=-32.991945,151.701864&z=12
 
-code: fttb
+code: btsi
 coordinates: 1012,536
 size: 7x9
 name: Bison Trail and Sand Island PT
