@@ -14,7 +14,7 @@ url: https://www.geocaching.com/map/default.aspx#?ll=-31.436682,145.787358&z=11
 
 code: trlt
 coordinates: 800,450
-size: 60x130
+size: 60x180
 name: The Road Less Travelled
 location: Meadow Flat to Gulgong
 url: https://www.geocaching.com/map/default.aspx#?ll=-32.867296,149.265904&z=9
