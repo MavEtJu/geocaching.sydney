@@ -80,7 +80,7 @@ function html_maps()
 	<div class="header center">Maps</div>
 	<p>
 	Do you want to find geocaches in the greater Sydney area?
-	Have a look at these two sources:
+	Have a look at these three sources:
 	</p>
 <?php
 	showlinks("maps.txt");
