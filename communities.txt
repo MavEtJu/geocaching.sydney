@@ -25,3 +25,9 @@ Map: map-stgeorge.png
 Groundspeak: https://www.geocaching.com/map/#?ll=-33.9539,151.15505&z=12
 GCA: http://geocaching.com.au/cache/latlon.gmapll?lat=-33.9539&lon=151.15505&zoom=12
 Top10: https://www.geocaching.com/bookmarks/view.aspx?guid=45da6e88-8084-4b6b-be2c-94069ddc41c5
+
+Name: Sydney North Geocaching Club
+Facebook: https://www.facebook.com/groups/sydneynorthgeocaching/?hc_ref=NEWSFEED
+Map: map-sydneynorth.png
+Groundspeak: https://www.geocaching.com/map/#?ll=-33.779435,151.154878&z=12
+GCA: http://geocaching.com.au/cache/latlon.gmapll?lat=-33.779435&lon=151.15487&zoom=12
