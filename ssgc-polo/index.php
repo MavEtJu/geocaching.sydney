@@ -36,7 +36,7 @@ function form()
 {
 ?>
 <p>
-This order form will forward the details towards NanaNel who will take care of the ordering.
+This order form will forward the details towards NanaNel who will take care of the ordering and delivery.
 <br>
 The price is 32 dollar, to be paid when receiving the shirt.
 </p>
