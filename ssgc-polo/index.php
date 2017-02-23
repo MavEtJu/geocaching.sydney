@@ -11,7 +11,7 @@
 <img src="polo.jpg" width="480" />
 </a>
 <br>
-NanaNel wears a size 18, Wazza9 wears a size L.
+NanaNel wears a size Ladies 18, Wazza9 wears a size Men L.
 </p>
 
 <?php
@@ -184,7 +184,7 @@ function email()
 
     mail("ssgc-tshirt@mavetju.org", "[SSGC Polo] Order from $_REQUEST[name]", $message);
     mail($_REQUEST["email"], "[SSGC Polo] Order from $_REQUEST[name]", $message);
-    mail("warwick_janelle@yahoo.com.au", "[SSGC Polo] Order from $_REQUEST[name]", $message);
+    mail("nananel147@gmail.com", "[SSGC Polo] Order from $_REQUEST[name]", $message);
 }
 
 ?>
