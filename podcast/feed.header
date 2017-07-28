@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xml:lang="en" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+	<title>Geocaching in Sydney</title>
+	<link>https://geocaching.sydney/</link>
+	<atom:link href="https://geocaching.sydney/podcast/feed.xml" rel="self" type="application/rss+xml" />
+	<description>Geocaching in Sydney is an irregular podcast about my Geocaching adventures in the greater Sydney area.</description>
+	<generator>Manual</generator>
+	<lastBuildDate>@@BUILDDATE@@</lastBuildDate>
+	<language>en</language>
+	<copyright>Edwin Groothuis</copyright>
+	<itunes:image href="https://geocaching.sydney/podcast/Geocaching%20in%20Sydney.png" />
+	<image>
+	<url>https://geocaching.sydney/podcast/Geocaching%20in%20Sydney.png</url>
+	<title>Geocaching in Sydney</title>
+	<link>https://geocaching.sydney/podcast/</link>
+	</image>
+	<itunes:summary>Geocaching in Sydney is an irregular podcast about my Geocaching adventures in the greater Sydney area.</itunes:summary>
+	<itunes:subtitle>Geocaching in Sydney</itunes:subtitle>
+	<itunes:author>Edwin Groothuis</itunes:author>
+	<itunes:owner>
+	<itunes:name>Edwin Groothuis</itunes:name>
+	<itunes:email>geocaching@mavetju.org</itunes:email>
+	</itunes:owner>
+	<itunes:explicit>clean</itunes:explicit>
+	<itunes:category text="Games &amp; Hobbies"><itunes:category text="Other Games" /></itunes:category>
+	<itunes:category text="Sports &amp; Recreation"><itunes:category text="Outdoor" /></itunes:category>
+	@@ITEMS@@
+</channel>
+</rss>

@@ -1,0 +1,15 @@
+<item>
+	<title>Geocaching in Sydney - @@NUMBER@@</title>
+	<itunes:subtitle>@@TITLE@@</itunes:subtitle>
+	<itunes:summary><![CDATA[@@DESCRIPTION@@]]></itunes:summary>
+	<description><![CDATA[@@DESCRIPTION@@]]></description>
+	<link>@@LINK@@</link>
+	<enclosure url="@@MP3@@" length="@@MP3SIZE@@" type="audio/mpeg"/>
+	<guid>@@MP3@@</guid>
+	<itunes:duration>@@MP3DURATION@@</itunes:duration>
+	<author>geocaching@mavetju.org (Edwin Groothuis)</author>
+	<itunes:author>Edwin Groothuis</itunes:author>
+	<itunes:keywords>geocaching</itunes:keywords>
+	<itunes:explicit>no</itunes:explicit>
+	<pubDate>@@PUBDATE@@</pubDate>
+</item>

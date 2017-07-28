@@ -10,9 +10,48 @@ if (isset($_REQUEST["episode"]) == FALSE) {
 }
 html_footer();
 
+function meta($c)
+{
+    $name = "Episode $c.meta";
+    if (!file_exists($name))
+	return array();
+    $l = file_get_contents($name);
+    $ls = explode("\n", $l);
+    $meta = array();
+    foreach ($ls as $l) {
+	if ($l == "")
+	    continue;
+	$words = explode(": ", $l);
+	$cmd = array_shift($words);
+	$l = join(": ", $words);
+	$meta[$cmd] = $l;
+    }
+
+    return $meta;
+}
+
 function html_episode($c)
 {
-    readfile("Geocaching in Sydney - $c.html");
+    echo "<h1>Geocaching in Sydney - $c</h1>\n";
+
+    $meta = meta($c);
+    echo "<p>$meta[Date] - $meta[Title]</p>\n";
+
+    echo "<h2>Links</h2>\n";
+    echo "<ul>\n";
+    $l = file_get_contents("Episode $c.links");
+    $ls = explode("\n", $l);
+    foreach ($ls as $l) {
+	if ($l == "") break;
+	$words = explode(" ", $l);
+	$url = array_shift($words);
+	$l = join(" ", $words);
+	echo "<li><a href=\"$url\">$l</a>\n";
+    }
+    echo "</ul>\n";
+
+    echo "<h2>Full Text</h2>\n";
+    readfile("Episode $c.html");
 }
 
 function html_intro()
@@ -43,12 +82,12 @@ function html_podcasts()
     date_default_timezone_set("Australia/Sydney");
     do {
 	$i++;
-	$name = sprintf("Geocaching in Sydney - $i.mp3");
-	if (file_exists($name) == FALSE)
+
+	$meta = meta($i);
+	if (count($meta) == 0)
 	    break;
-	$s = stat($name);
-	$ctime = strftime("%d %B %y", $s["ctime"]);
-	echo "<li>Episode $i ($ctime) [ <a href=\"$name\">MP3</a> | <a href=\"index.php?episode=$i\">Text</a> ]";
+
+	echo "<li>[ <a href=\"$meta[MP3]\">MP3</a> | <a href=\"index.php?episode=$i\">Text</a> ] Episode $i ($meta[Date]) $meta[Title]";
     } while (1);
 
 ?>
