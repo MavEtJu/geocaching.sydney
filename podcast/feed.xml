@@ -6,14 +6,14 @@
 	<atom:link href="https://geocaching.sydney/podcast/feed.xml" rel="self" type="application/rss+xml" />
 	<description>Geocaching in Sydney is an irregular podcast about my Geocaching adventures in the greater Sydney area.</description>
 	<generator>Manual</generator>
-	<lastBuildDate>Wed, 26 Jul 2017 00:00:00 -0000</lastBuildDate>
+	<lastBuildDate>Sat, 29 Jul 2017 00:00:00 -0000</lastBuildDate>
 	<language>en</language>
 	<copyright>Edwin Groothuis</copyright>
 	<itunes:image href="https://geocaching.sydney/podcast/Geocaching%20in%20Sydney.png" />
 	<image>
 	<url>https://geocaching.sydney/podcast/Geocaching%20in%20Sydney.png</url>
 	<title>Geocaching in Sydney</title>
-	<link>https://geocaching.sydney/</link>
+	<link>https://geocaching.sydney/podcast/</link>
 	</image>
 	<itunes:summary>Geocaching in Sydney is an irregular podcast about my Geocaching adventures in the greater Sydney area.</itunes:summary>
 	<itunes:subtitle>Geocaching in Sydney</itunes:subtitle>
@@ -26,56 +26,36 @@
 	<itunes:category text="Games &amp; Hobbies"><itunes:category text="Other Games" /></itunes:category>
 	<itunes:category text="Sports &amp; Recreation"><itunes:category text="Outdoor" /></itunes:category>
 	<item>
-		<title>Geocaching in Sydney - 1</title>
-		<itunes:subtitle>Introduction and St Leonard</itunes:subtitle>
-		<itunes:summary><![CDATA[<p>Introduction and St Leonard</p>
-<p>
-Links and the full text can be found at the episode information at https://geocaching.sydney/podcast/ 
-</p>
-<ul>
-<li><a href="http://geocaching.com.au/my/query/gmap/7459">Engineers Australia Hi
-storic Markers</a>
-<li><a href="http://geocaching.com.au/my/query/gmap/7459">Lighthouses of Austral
-ia</a> 
-<li><a href="http://geocaching.com.au/cache/tp6383">TP6383 - St Leonard Naremburn</a>
-<li><a href="http://coord.info/GC6CN5M">GC6CN5M - Lost Ball</a>
-<li><a href="http://coord.info/GC72T4V">GC72T4V - Naremburn Park</a>
-<li><a href="http://geocaching.com.au/cache/ga8339">GA8339 - Gore Hill</a>
-<li><a href="http://coord.info/GC14HET">GC14HET - In Loving Memory</a>
-<li><a href="http://coord.info/GC78ZK1">GC78ZK1 - Geocaching NSW 2017 AGM</a>
-<li><a href="http://geocachingnsw.asn.au/">Geocaching NSW</a>
-<li><a href="http://geocaching.com.au/">Geocaching Australia</a>
-</ul>
-</p>]]></itunes:summary>
-		<description><![CDATA[<p>Introduction and St Leonard</p>
-<p>
-Links and the full text can be found at the episode information at <a href="https://geocaching.sydney/podcast/">https://geocaching.sydney/podcast/</a>
-</p>
-<p>
-<ul>
-<li><a href="http://geocaching.com.au/my/query/gmap/7459">Engineers Australia Hi
-storic Markers</a>
-<li><a href="http://geocaching.com.au/my/query/gmap/7459">Lighthouses of Austral
-ia</a> 
-<li><a href="http://geocaching.com.au/cache/tp6383">TP6383 - St Leonard Naremburn</a>
-<li><a href="http://coord.info/GC6CN5M">GC6CN5M - Lost Ball</a>
-<li><a href="http://coord.info/GC72T4V">GC72T4V - Naremburn Park</a>
-<li><a href="http://geocaching.com.au/cache/ga8339">GA8339 - Gore Hill</a>
-<li><a href="http://coord.info/GC14HET">GC14HET - In Loving Memory</a>
-<li><a href="http://coord.info/GC78ZK1">GC78ZK1 - Geocaching NSW 2017 AGM</a>
-<li><a href="http://geocachingnsw.asn.au/">Geocaching NSW</a>
-<li><a href="http://geocaching.com.au/">Geocaching Australia</a>
-</ul>
-</p>]]></description>
-		<link>https://geocaching.sydney/podcast/Geocaching%20in%20Sydney%20-%201.html</link>
-		<enclosure url="https://geocaching.sydney/podcast/Geocaching%20in%20Sydney%20-%201.mp3" length="7964960" type="audio/mpeg"/>
-		<guid>https://geocaching.sydney/podcast/Geocaching%20in%20Sydney%20-%201.mp3</guid>
-		<itunes:duration>10:43</itunes:duration>
-		<author>geocaching@mavetju.org (Edwin Groothuis)</author>
-		<itunes:author>Edwin Groothuis</itunes:author>
-		<itunes:keywords>geocaching</itunes:keywords>
-		<itunes:explicit>no</itunes:explicit>
-		<pubDate>Wed, 26 Jul 2017 01:07:34 -0400</pubDate>
-	</item>
+	<title>Geocaching in Sydney - 1</title>
+	<itunes:subtitle>Introduction and St Leonard</itunes:subtitle>
+	<itunes:summary><![CDATA[<p>Introduction and St Leonard</p><p>Links and the full text can be found at the episode information at <a href="https://geocaching.sydney/podcast/index.php?episode=1">https://geocaching.sydney/podcast/index.php?episode=1</a></p><p><ul><li><a href="http://geocaching.com.au/my/query/gmap/7459">Engineers Australia Historic Markers</a><li><a href="http://geocaching.com.au/my/query/gmap/7459">Lighthouses of Australia</a><li><a href="http://geocaching.com.au/cache/tp6383">TP6383 - St Leonard Narembur</a><li><a href="http://coord.info/GC6CN5M">GC6CN5M - Lost Ball</a><li><a href="http://coord.info/GC72T4V">GC72T4V - Naremburn Park</a><li><a href="http://geocaching.com.au/cache/ga8339">GA8339 - Gore Hill</a><li><a href="http://coord.info/GC14HET">GC14HET - In Loving Memory</a><li><a href="http://coord.info/GC78Q5R">GC78Q5R - Afternoon Tea by the Creek for IGD</a><li><a href="http://coord.info/GC78ZK1">GC78ZK1 - Geocaching NSW 2017 AGM</a><li><a href="http://geocachingnsw.asn.au/">Geocaching NSW</a><li><a href="http://geocaching.com.au/">Geocaching Australia</a></ul></p>]]></itunes:summary>
+	<description><![CDATA[<p>Introduction and St Leonard</p><p>Links and the full text can be found at the episode information at <a href="https://geocaching.sydney/podcast/index.php?episode=1">https://geocaching.sydney/podcast/index.php?episode=1</a></p><p><ul><li><a href="http://geocaching.com.au/my/query/gmap/7459">Engineers Australia Historic Markers</a><li><a href="http://geocaching.com.au/my/query/gmap/7459">Lighthouses of Australia</a><li><a href="http://geocaching.com.au/cache/tp6383">TP6383 - St Leonard Narembur</a><li><a href="http://coord.info/GC6CN5M">GC6CN5M - Lost Ball</a><li><a href="http://coord.info/GC72T4V">GC72T4V - Naremburn Park</a><li><a href="http://geocaching.com.au/cache/ga8339">GA8339 - Gore Hill</a><li><a href="http://coord.info/GC14HET">GC14HET - In Loving Memory</a><li><a href="http://coord.info/GC78Q5R">GC78Q5R - Afternoon Tea by the Creek for IGD</a><li><a href="http://coord.info/GC78ZK1">GC78ZK1 - Geocaching NSW 2017 AGM</a><li><a href="http://geocachingnsw.asn.au/">Geocaching NSW</a><li><a href="http://geocaching.com.au/">Geocaching Australia</a></ul></p>]]></description>
+	<link>https://geocaching.sydney/podcast/index.php?episode=1</link>
+	<enclosure url="https://geocaching.sydney/podcast/Geocaching%20in%20Sydney%20-%201.mp3" length="7964960" type="audio/mpeg"/>
+	<guid>https://geocaching.sydney/podcast/Geocaching%20in%20Sydney%20-%201.mp3</guid>
+	<itunes:duration>10:43</itunes:duration>
+	<author>geocaching@mavetju.org (Edwin Groothuis)</author>
+	<itunes:author>Edwin Groothuis</itunes:author>
+	<itunes:keywords>geocaching</itunes:keywords>
+	<itunes:explicit>no</itunes:explicit>
+	<pubDate>Wed, 26 Jul 2017 00:00:00 -0000</pubDate>
+</item>
+<item>
+	<title>Geocaching in Sydney - 2</title>
+	<itunes:subtitle>Stanwell Tops and Stanwell Park</itunes:subtitle>
+	<itunes:summary><![CDATA[<p>Stanwell Tops and Stanwell Park</p><p>Links and the full text can be found at the episode information at <a href="https://geocaching.sydney/podcast/index.php?episode=2">https://geocaching.sydney/podcast/index.php?episode=2</a></p><p><ul><li><a href="https://www.geocaching.com/bookmarks/view.aspx?guid=ddc3310d-7cd8-4e03-bac7-b319b3f04afa">List - Helensburgh Puzzles!</a><li><a href="https://coord.info/GC6W0P8">GC6W0P8 - Cracktacular!</a><li><a href="https://coord.info/GC6669">GC6669 - The Gnome</a><li><a href="https://coord.info/GC621A2">GC621A2 - Picnic on the rocks</a><li><a href="https://en.wikipedia.org/wiki/Lawrence_Hargrave">Wikipedia - Lawrence Hargrave</a><li><a href="https://coord.info/GC2HWNP">GC2HWNP - The Blue Hole</a><li><a href="http://geocaching.com.au/cache/ga7488">GA7488 - Flood Depth Indicators</a><li><a href="http://coord.info/GC78Q5R">GC78Q5R - Afternoon Tea by the Creek for IGD</a><li><a href="http://geocachingnsw.asn.au/">Geocaching NSW</a><li><a href="http://geocaching.com.au/">Geocaching Australia</a></ul></p>]]></itunes:summary>
+	<description><![CDATA[<p>Stanwell Tops and Stanwell Park</p><p>Links and the full text can be found at the episode information at <a href="https://geocaching.sydney/podcast/index.php?episode=2">https://geocaching.sydney/podcast/index.php?episode=2</a></p><p><ul><li><a href="https://www.geocaching.com/bookmarks/view.aspx?guid=ddc3310d-7cd8-4e03-bac7-b319b3f04afa">List - Helensburgh Puzzles!</a><li><a href="https://coord.info/GC6W0P8">GC6W0P8 - Cracktacular!</a><li><a href="https://coord.info/GC6669">GC6669 - The Gnome</a><li><a href="https://coord.info/GC621A2">GC621A2 - Picnic on the rocks</a><li><a href="https://en.wikipedia.org/wiki/Lawrence_Hargrave">Wikipedia - Lawrence Hargrave</a><li><a href="https://coord.info/GC2HWNP">GC2HWNP - The Blue Hole</a><li><a href="http://geocaching.com.au/cache/ga7488">GA7488 - Flood Depth Indicators</a><li><a href="http://coord.info/GC78Q5R">GC78Q5R - Afternoon Tea by the Creek for IGD</a><li><a href="http://geocachingnsw.asn.au/">Geocaching NSW</a><li><a href="http://geocaching.com.au/">Geocaching Australia</a></ul></p>]]></description>
+	<link>https://geocaching.sydney/podcast/index.php?episode=2</link>
+	<enclosure url="https://geocaching.sydney/podcast/Geocaching%20in%20Sydney%20-%202.mp3" length="11074383" type="audio/mpeg"/>
+	<guid>https://geocaching.sydney/podcast/Geocaching%20in%20Sydney%20-%202.mp3</guid>
+	<itunes:duration>14:46</itunes:duration>
+	<author>geocaching@mavetju.org (Edwin Groothuis)</author>
+	<itunes:author>Edwin Groothuis</itunes:author>
+	<itunes:keywords>geocaching</itunes:keywords>
+	<itunes:explicit>no</itunes:explicit>
+	<pubDate>Sat, 29 Jul 2017 00:00:00 -0000</pubDate>
+</item>
+
 </channel>
 </rss>
+
