@@ -49,6 +49,7 @@ function html_episode($c)
 	echo "<li><a href=\"$url\">$l</a>\n";
     }
     echo "</ul>\n";
+    echo "<a href=\"index.php\">Back to overview</a>";
 
     echo "<h2>Full Text</h2>\n";
     readfile("Episode $c.html");
@@ -67,6 +68,9 @@ function html_intro()
     </p>
     <p>
     You can find this podcast on <a href="https://itunes.apple.com/au/podcast/geocaching-in-sydney/id1263814202">iTunes</a> or as the <a href="feed.xml">RSS feed</a>.
+    </p>
+    Stay in contact with me: @mavetju on Twitter and Instagram, "Edwin Groothuis" on Facebook!
+    <p>
     </div>
 <?php
 }
@@ -79,16 +83,23 @@ function html_podcasts()
 <ul>
 <?php
     $i = 0;
-    date_default_timezone_set("Australia/Sydney");
     do {
 	$i++;
+	$meta = meta($i);
+	if (count($meta) == 0)
+	    break;
+    } while (1);
+
+    date_default_timezone_set("Australia/Sydney");
+    do {
+	$i--;
 
 	$meta = meta($i);
 	if (count($meta) == 0)
 	    break;
 
 	echo "<li>[ <a href=\"$meta[MP3]\">MP3</a> | <a href=\"index.php?episode=$i\">Text</a> ] Episode $i ($meta[Date]) $meta[Title]";
-    } while (1);
+    } while ($i > 0);
 
 ?>
 </ul>
